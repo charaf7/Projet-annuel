@@ -19,13 +19,11 @@ public class Hello {
 			
 		}
 
-		//for (;;) {
 			Mat frame = new Mat();
 			test.retrieve(frame); // get a new frame from camera
 
 			Highgui.imwrite("me1.jpeg", frame);
 
 			test.release();
-		//}
 	}
 }
