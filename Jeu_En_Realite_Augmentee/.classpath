@@ -4,8 +4,36 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/OpenCV-2.4.13">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:/L3 2016-2017/OpenCV/opencv/build/java/x64"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Charaf-Eddine/Downloads/opencv/build/java/x64"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Charaf-Eddine/Downloads/opencv/build/java/opencv-2413.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charaf-Eddine/Desktop/coursS2/core-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charaf-Eddine/Desktop/coursS2/javase-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charaf-Eddine/Desktop/coursS2/libs/webcam-capture-0.3.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charaf-Eddine/Desktop/coursS2/libs/libs/bridj-0.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charaf-Eddine/Desktop/coursS2/libs/libs/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charaf-Eddine/Desktop/coursS2/libs/javacv-bin/javacpp.jar" sourcepath="C:/Users/Charaf-Eddine/Desktop/coursS2/libs/javacv-bin/javacpp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charaf-Eddine/Desktop/coursS2/libs/javacv-bin/javacv.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_121/lib/ant-javafx.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_121/lib/dt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_121/lib/javafx-mx.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_121/lib/jconsole.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_121/lib/packager.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_121/lib/sa-jdi.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_121/lib/tools.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_121/lib/ext/access-bridge-64.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_121/lib/ext/cldrdata.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_121/lib/ext/dnsns.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_121/lib/ext/jaccess.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_121/lib/ext/jfxrt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_121/lib/ext/localedata.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_121/lib/ext/nashorn.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_121/lib/ext/sunec.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_121/lib/ext/sunjce_provider.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_121/lib/ext/sunmscapi.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_121/lib/ext/sunpkcs11.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_121/lib/ext/zipfs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Charaf-Eddine/Desktop/ProjetAnnuel/Projet-annuel/Jeu_En_Realite_Augmentee/lib/webcam-capture-0.3.12-20161206.184756-3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

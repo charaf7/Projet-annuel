@@ -26,7 +26,6 @@ public class Video extends javax.swing.JFrame {
 	    Mat frame = new Mat();
 	    MatOfByte mem = new MatOfByte();
 	    
-	    
 	// thread class
 	    
 	    class DaemonThread implements Runnable
