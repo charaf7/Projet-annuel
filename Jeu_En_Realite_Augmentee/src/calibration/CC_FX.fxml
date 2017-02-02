@@ -8,7 +8,7 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="calibration.CC_Controller">
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calibration.CC_Controller">
 	<top>
 		<VBox>
    <children>
@@ -16,15 +16,6 @@
    				<padding>
    					<Insets bottom="10" top="10" />
    				</padding>
-      <children>
-      				<Label text="Boards #" />
-      				<TextField fx:id="numBoards" maxWidth="50" text="20" />
-      				<Label text="Horizontal corners #" />
-      				<TextField fx:id="numHorCorners" maxWidth="50" text="9" />
-      				<Label text="Vertical corners #" />
-      				<TextField fx:id="numVertCorners" maxWidth="50" text="6" />
-      				<Button fx:id="applyButton" alignment="center" onAction="#updateSettings" text="Apply" />
-      </children>
    			</HBox>
    			<Separator />
    </children>

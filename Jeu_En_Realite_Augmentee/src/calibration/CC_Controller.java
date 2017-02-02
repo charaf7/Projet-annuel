@@ -45,12 +45,7 @@ public class CC_Controller {
 		@FXML
 		private ImageView calibratedFrame;
 		// info related to the calibration process
-		@FXML
-		private TextField numBoards;
-		@FXML
-		private TextField numHorCorners;
-		@FXML
-		private TextField numVertCorners;
+		
 		
 		// a timer for acquiring the video stream
 		private Timer timer;
@@ -90,20 +85,13 @@ public class CC_Controller {
 			this.distCoeffs = new Mat();
 			this.successes = 0;
 			this.isCalibrated = false;
+			this.boardsNumber = 20;
+			this.numCornersHor = 9;
+			this.numCornersVer =6;
+			this.cameraButton.setDisable(false);
 		}
 		
 		//importation des valeurs dans le fichier fxml
-		@FXML
-		protected void updateSettings()
-		{
-			this.boardsNumber = Integer.parseInt(this.numBoards.getText());
-			this.numCornersHor = Integer.parseInt(this.numHorCorners.getText());
-			this.numCornersVer = Integer.parseInt(this.numVertCorners.getText());
-			int numSquares = this.numCornersHor * this.numCornersVer;
-			for (int j = 0; j < numSquares; j++)
-				obj.push_back(new MatOfPoint3f(new Point3(j / this.numCornersHor, j % this.numCornersVer, 0.0f)));
-			this.cameraButton.setDisable(false);
-		}
 		
 		//activation du camera
 		@FXML
@@ -151,7 +139,7 @@ public class CC_Controller {
 				else{
 					
 					// log the error
-					System.err.println("Impossible to open the camera connection...");
+					System.err.println("Impossible d'ouvrir la connexion avec la camera...");
 				}
 			}
 			else{
@@ -213,7 +201,6 @@ public class CC_Controller {
 			return imageToShow;
 		}
 		
-		//prendre une photo
 		@FXML
 		protected void takeSnapshot(){
 			
