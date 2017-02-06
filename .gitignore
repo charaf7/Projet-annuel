@@ -1,6 +1,2 @@
 *.jpeg
-
-.buildpath
-.classpath
-.project
 *.classpath
